@@ -1,3 +1,3 @@
-# ionic-d32cfz
+# ionic-GoHorse
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/ionic-d32cfz)
+Projeto criado com o intuito de errar bastante codando para aprender com os erros! ⚡️
