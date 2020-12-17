@@ -3,7 +3,8 @@ import { NavController } from 'ionic-angular';
 
 @Component({
   selector: 'page-about',
-  templateUrl: 'about.html'
+  templateUrl: 'about.html',
+    styleUrls: ["styles"]
 })
 export class AboutPage {
 
