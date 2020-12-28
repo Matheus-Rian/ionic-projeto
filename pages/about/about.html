@@ -6,7 +6,9 @@
 	</ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content (ionScrollStart)="logScrollStart()" (ionScroll)="logScrolling($event)" (ionScrollEnd)="logScrollEnd()">
+	<h1>Main Content</h1>
+
 	<ion-grid>
 		<ion-row>
 			<ion-col>Matheus Rian</ion-col>
@@ -17,4 +19,30 @@
 			<ion-col>24</ion-col>
 		</ion-row>
 	</ion-grid>
+	<ion-badge color="primary">11</ion-badge>
+	<ion-badge color="secondary">22</ion-badge>
+	<ion-badge color="tertiary">33</ion-badge>
+	<ion-badge color="success">44</ion-badge>
+	<ion-badge color="warning">55</ion-badge>
+	<ion-badge color="danger">66</ion-badge>
+	<ion-badge color="light">77</ion-badge>
+	<ion-badge color="medium">88</ion-badge>
+	<ion-badge color="dark">99</ion-badge>
+
+	<!-- Item with badge on left and right -->
+	<ion-item>
+		<ion-badge slot="start">11</ion-badge>
+		<ion-label>My Item</ion-label>
+		<ion-badge slot="end">22</ion-badge>
+	</ion-item>
+
+	<button></button>
+	<!-- Default -->
+	<ion-badge>99</ion-badge>
+
+	<div slot="fixed">
+		<h1>Fixed Content</h1>
+	</div>
 </ion-content>
+
+<!-- Colors -->

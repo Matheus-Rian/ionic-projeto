@@ -7,5 +7,7 @@ import { NavController } from "ionic-angular";
   styleUrls: ["home.scss"]
 })
 export class HomePage {
+  twoDataBinding = " ";
+  isUnchanged = true;
   constructor(public navCtrl: NavController) {}
 }

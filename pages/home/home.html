@@ -9,10 +9,13 @@
 
 <ion-content padding>
 	<h2>Seja Bem vindo ao GoIonic</h2>
+  <ion-label>Bem vindo, {{twoDataBinding}}</ion-label>
+  <ion-input [(ngModel)]='twoDataBinding'>Matheus</ion-input>
 	<ion-card>
 		<ion-card-header>
 			Explore Nearby
 		</ion-card-header>
+    <button [(disabled)]="isUnchanged">Disabled Button</button>
 
 		<ion-list>
 			<button ion-item>
